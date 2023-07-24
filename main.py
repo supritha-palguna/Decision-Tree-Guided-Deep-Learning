@@ -10,14 +10,14 @@ from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 
 class Net(nn.Module):
-    def __init__(self):
+    def __init__(self, n_hidden):
         super(Net, self).__init__()
         self.conv1 = nn.Conv2d(1, 32, 3, 1)
         self.conv2 = nn.Conv2d(32, 64, 3, 1)
         self.dropout1 = nn.Dropout(0.25)
         self.dropout2 = nn.Dropout(0.5)
-        self.fc1 = nn.Linear(9216, 128)
-        self.fc2 = nn.Linear(128, 10)
+        self.fc1 = nn.Linear(9216, n_hidden)
+        self.fc2 = nn.Linear(n_hidden, 10)
 
     def forward(self, x):
         x = self.conv1(x)
@@ -70,6 +70,15 @@ def test(model, device, test_loader, model_name):
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
 
+def get_indices(arr):
+    left_index = [] 
+    right_index = []
+    for i in range(len(arr)):
+        if arr[i] == 1:
+            left_index.append(i)
+        elif arr[i] == 2:
+            right_index.append(i)
+    return left_index, right_index
 
 def main():
     # Training settings
@@ -122,33 +131,50 @@ def main():
         transforms.ToTensor(),
         transforms.Normalize((0.1307,), (0.3081,))
         ])
-    dataset1 = datasets.MNIST('../data', train=True, download=True,
+    dataset1 = datasets.MNIST('./data', train=True, download=True,
                        transform=transform)
-    dataset2 = datasets.MNIST('../data', train=False,
+    dataset2 = datasets.MNIST('./data', train=False,
                        transform=transform)
     train_loader = torch.utils.data.DataLoader(dataset1,**train_kwargs)
     test_loader = torch.utils.data.DataLoader(dataset2, **test_kwargs)
 
-    dt = DecisionTreeClassifier(max_depth=3)
+    # DT for train data
+    dt = DecisionTreeClassifier(max_depth=1)
     dt.fit(dataset1.data.view(dataset1.data.size(0), -1), dataset1.targets)
 
     leaf_nodes = dt.apply(dataset1.data.view(dataset1.data.size(0), -1))
 
-    left_leaf_nodes = leaf_nodes[np.where(leaf_nodes % 2 == 0)]  # Filtering leaf nodes with even indices
-    right_leaf_nodes = leaf_nodes[np.where(leaf_nodes % 2 != 0)]  # Filtering leaf nodes with odd indices
+    from collections import Counter
+    
+    print("Labels: ", Counter(leaf_nodes))
+        
+    print(np.unique(leaf_nodes))
+    left_leaf_nodes, right_leaf_nodes = get_indices(leaf_nodes)
 
-    left_dataset = torch.utils.data.Subset(dataset1, left_leaf_nodes.tolist())
-    right_dataset = torch.utils.data.Subset(dataset1, right_leaf_nodes.tolist())
+    left_dataset = torch.utils.data.Subset(dataset1, left_leaf_nodes)
+    right_dataset = torch.utils.data.Subset(dataset1, right_leaf_nodes)
 
     left_loader = torch.utils.data.DataLoader(left_dataset,**train_kwargs)
     right_loader = torch.utils.data.DataLoader(right_dataset,**train_kwargs)
     
+   
+    test_leaf_nodes = dt.apply(dataset2.data.view(dataset2.data.size(0), -1))
+    print("Labels: ", Counter(test_leaf_nodes))
+    print(np.unique(test_leaf_nodes))
+    test_left_leaf_nodes, test_right_leaf_nodes = get_indices(test_leaf_nodes) 
+
+    test_left_dataset = torch.utils.data.Subset(dataset2, test_left_leaf_nodes)
+    test_right_dataset = torch.utils.data.Subset(dataset2, test_right_leaf_nodes)
+
+    test_left_loader = torch.utils.data.DataLoader(test_left_dataset,**train_kwargs)
+    test_right_loader = torch.utils.data.DataLoader(test_right_dataset,**train_kwargs)
     
-    model = Net().to(device)
+    
+    model = Net(128).to(device)
     optimizer = optim.Adadelta(model.parameters(), lr=args.lr)
-    model_left = Net().to(device)
+    model_left = Net(64).to(device)
     optimizer1 = optim.Adadelta(model_left.parameters(), lr=args.lr)
-    model_right = Net().to(device)
+    model_right = Net(64).to(device)
     optimizer2 = optim.Adadelta(model_right.parameters(), lr=args.lr)
 
     scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
@@ -160,18 +186,18 @@ def main():
     scheduler1 = StepLR(optimizer1, step_size=1, gamma=args.gamma)
     for epoch in range(1, args.epochs + 1):
         train(args, model_left, device, left_loader, optimizer1, epoch)
-        test(model_left, device, test_loader, 'Left DT model')
+        test(model_left, device, test_left_loader, 'Left DT model')
         scheduler1.step()
 
     scheduler2 = StepLR(optimizer2, step_size=1, gamma=args.gamma)
     for epoch in range(1, args.epochs + 1):
         train(args, model_right, device, right_loader, optimizer2, epoch)
-        test(model_right, device, test_loader, 'Right DT model')
+        test(model_right, device, test_right_loader, 'Right DT model')
         scheduler2.step()
 
     test(model, device, test_loader, 'Whole model')
-    test(model_left, device, test_loader, 'Left DT model')
-    test(model_right, device, test_loader, 'Right DT model')
+    test(model_left, device, test_left_loader, 'Left DT model')
+    test(model_right, device, test_right_loader, 'Right DT model')
 
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")

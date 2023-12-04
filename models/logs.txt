@@ -1,0 +1,489 @@
+epoch: 0/ total epoch: 1 acc: 14.81 loss: 3.6603460144996642 
+Test model cifar_100 : test_loss3.1640074877738953 | test_acc22.554
+Test model cifar_100 : test_loss3.162610159397125 | test_acc22.434
+Test model cifar_100 : test_loss3.1638688106536863 | test_acc22.578
+Test model cifar_100 : test_loss3.1656328625679016 | test_acc22.498
+Test model cifar_100 : test_loss3.1628064918518066 | test_acc22.54
+Test model cifar_100 : test_loss3.1644362964630126 | test_acc22.546
+Test model cifar_100 : test_loss3.1623685035705567 | test_acc22.486
+Test model cifar_100 : test_loss3.162833637237549 | test_acc22.514
+Test model cifar_100 : test_loss3.1660568485260008 | test_acc22.378
+epoch: 0/ total epoch: 1 acc: 14.568 loss: 3.6648244795799254 
+Test model cifar_100 : test_loss3.1343041710853576 | test_acc22.956
+Test model cifar_100 : test_loss3.141759608745575 | test_acc22.726
+Test model cifar_100 : test_loss3.1416674284935 | test_acc22.754
+epoch: 0/ total epoch: 1 acc: 13.83 loss: 3.7038280448913574 
+Test model cifar_100 : test_loss3.2293830757141113 | test_acc21.54
+Test model cifar_100 : test_loss3.2249710235595703 | test_acc21.49
+Test model cifar_100 : test_loss3.225055148124695 | test_acc21.718
+Test model cifar_100 : test_loss3.2232515482902526 | test_acc21.684
+Test model cifar_100 : test_loss3.226007451057434 | test_acc21.612
+epoch: 0/ total epoch: 1 acc: 36.726 loss: 1.7565032165050507 
+Test model cifar_10 : test_loss1.5413725702762604 | test_acc42.83
+epoch: 0/ total epoch: 2 acc: 38.208 loss: 1.7204355952739716 
+epoch: 1/ total epoch: 2 acc: 58.138 loss: 1.1654918500185012 
+Test model cifar_10 : test_loss1.0044727417230606 | test_acc64.534
+Test model cifar_10 : test_loss1.0042863821983337 | test_acc64.098
+epoch: 0/ total epoch: 2 acc: 37.342 loss: 1.7500316252708434 
+epoch: 1/ total epoch: 2 acc: 52.608 loss: 1.306984691977501 
+Test model cifar_10 : test_loss1.2263070024251939 | test_acc55.982
+epoch: 0/ total epoch: 2 acc: 14.608 loss: 3.662630305290222 
+epoch: 1/ total epoch: 2 acc: 29.312 loss: 2.859748317718506 
+Test model cifar_100 : test_loss2.599372000694275 | test_acc35.086
+Test model cifar_10 : test_loss1.2247832087278365 | test_acc56.174
+epoch: 0/ total epoch: 120 acc: 37.886 loss: 1.7306476745605468 
+epoch: 1/ total epoch: 120 acc: 56.806 loss: 1.2113272005319595 
+epoch: 2/ total epoch: 120 acc: 67.786 loss: 0.9140909663438797 
+epoch: 3/ total epoch: 120 acc: 73.51 loss: 0.7589329258203507 
+epoch: 4/ total epoch: 120 acc: 78.754 loss: 0.6274491264820099 
+epoch: 5/ total epoch: 120 acc: 81.8 loss: 0.5463984308242797 
+epoch: 6/ total epoch: 120 acc: 83.382 loss: 0.4984874289035797 
+epoch: 7/ total epoch: 120 acc: 84.68 loss: 0.4621855128407478 
+epoch: 8/ total epoch: 120 acc: 85.808 loss: 0.43390590593218803 
+epoch: 9/ total epoch: 120 acc: 86.406 loss: 0.4149572857618332 
+epoch: 10/ total epoch: 120 acc: 87.008 loss: 0.4020276471674442 
+epoch: 11/ total epoch: 120 acc: 87.388 loss: 0.38902526450157165 
+epoch: 12/ total epoch: 120 acc: 88.01 loss: 0.37279842028021815 
+epoch: 13/ total epoch: 120 acc: 88.442 loss: 0.3634969360530376 
+epoch: 14/ total epoch: 120 acc: 88.828 loss: 0.35146485874056815 
+epoch: 15/ total epoch: 120 acc: 89.058 loss: 0.3443154982924461 
+epoch: 16/ total epoch: 120 acc: 89.126 loss: 0.34219622519612314 
+epoch: 17/ total epoch: 120 acc: 89.584 loss: 0.3320022798776627 
+epoch: 18/ total epoch: 120 acc: 89.654 loss: 0.3254676396846771 
+epoch: 19/ total epoch: 120 acc: 89.88 loss: 0.3227767998278141 
+epoch: 20/ total epoch: 120 acc: 90.084 loss: 0.315868890941143 
+epoch: 21/ total epoch: 120 acc: 90.098 loss: 0.3148922255188227 
+epoch: 22/ total epoch: 120 acc: 90.39 loss: 0.30964295208454135 
+epoch: 23/ total epoch: 120 acc: 90.788 loss: 0.2999049687087536 
+epoch: 24/ total epoch: 120 acc: 90.85 loss: 0.2975562318265438 
+epoch: 25/ total epoch: 120 acc: 91.11 loss: 0.2894576414525509 
+epoch: 26/ total epoch: 120 acc: 91.232 loss: 0.2865531348288059 
+epoch: 27/ total epoch: 120 acc: 91.324 loss: 0.28353896087408065 
+epoch: 28/ total epoch: 120 acc: 91.432 loss: 0.28135168823599815 
+epoch: 29/ total epoch: 120 acc: 91.298 loss: 0.28079423601925374 
+epoch: 30/ total epoch: 120 acc: 91.59 loss: 0.2758266322314739 
+epoch: 31/ total epoch: 120 acc: 91.728 loss: 0.272660318672657 
+epoch: 32/ total epoch: 120 acc: 91.886 loss: 0.26728264629840853 
+epoch: 33/ total epoch: 120 acc: 92.0 loss: 0.2638314342498779 
+epoch: 34/ total epoch: 120 acc: 92.228 loss: 0.2603236395418644 
+epoch: 35/ total epoch: 120 acc: 92.23 loss: 0.2589432467520237 
+epoch: 36/ total epoch: 120 acc: 92.246 loss: 0.25703221625089645 
+epoch: 37/ total epoch: 120 acc: 92.434 loss: 0.25076082441210745 
+epoch: 38/ total epoch: 120 acc: 92.682 loss: 0.24565758368372917 
+epoch: 39/ total epoch: 120 acc: 92.644 loss: 0.24783403024077416 
+epoch: 40/ total epoch: 120 acc: 92.614 loss: 0.24743039026856423 
+epoch: 41/ total epoch: 120 acc: 92.758 loss: 0.244380813986063 
+epoch: 42/ total epoch: 120 acc: 92.804 loss: 0.24158204676210882 
+epoch: 43/ total epoch: 120 acc: 93.11 loss: 0.2344968212991953 
+epoch: 44/ total epoch: 120 acc: 93.228 loss: 0.2310827309936285 
+epoch: 45/ total epoch: 120 acc: 93.254 loss: 0.23077114363014697 
+epoch: 46/ total epoch: 120 acc: 93.288 loss: 0.23027551417052747 
+epoch: 47/ total epoch: 120 acc: 93.396 loss: 0.22851744110882283 
+epoch: 48/ total epoch: 120 acc: 93.6 loss: 0.2206323519051075 
+epoch: 49/ total epoch: 120 acc: 93.506 loss: 0.22206076595187188 
+epoch: 50/ total epoch: 120 acc: 93.764 loss: 0.2143340466171503 
+epoch: 51/ total epoch: 120 acc: 93.982 loss: 0.2124128664433956 
+epoch: 52/ total epoch: 120 acc: 93.922 loss: 0.2143582508713007 
+epoch: 53/ total epoch: 120 acc: 93.992 loss: 0.2080672027170658 
+epoch: 54/ total epoch: 120 acc: 94.242 loss: 0.20158686451613902 
+epoch: 55/ total epoch: 120 acc: 94.29 loss: 0.20237949740886688 
+epoch: 56/ total epoch: 120 acc: 94.438 loss: 0.19626406149566172 
+epoch: 57/ total epoch: 120 acc: 94.45 loss: 0.19849038039147854 
+epoch: 58/ total epoch: 120 acc: 94.626 loss: 0.19213332319259643 
+epoch: 59/ total epoch: 120 acc: 94.678 loss: 0.18852131132781505 
+epoch: 60/ total epoch: 120 acc: 94.744 loss: 0.18675649306178094 
+epoch: 61/ total epoch: 120 acc: 94.92 loss: 0.18454171666502953 
+epoch: 62/ total epoch: 120 acc: 95.022 loss: 0.18139136949181556 
+epoch: 63/ total epoch: 120 acc: 95.146 loss: 0.17427956905961037 
+epoch: 64/ total epoch: 120 acc: 95.294 loss: 0.16977948254346847 
+epoch: 65/ total epoch: 120 acc: 95.448 loss: 0.16709658631682395 
+epoch: 66/ total epoch: 120 acc: 95.592 loss: 0.16177021539211273 
+epoch: 67/ total epoch: 120 acc: 95.682 loss: 0.16035575927048923 
+epoch: 68/ total epoch: 120 acc: 95.832 loss: 0.15418350357562305 
+epoch: 69/ total epoch: 120 acc: 95.894 loss: 0.1533022471293807 
+epoch: 70/ total epoch: 120 acc: 96.084 loss: 0.14938218353688718 
+epoch: 71/ total epoch: 120 acc: 96.202 loss: 0.1429949019253254 
+epoch: 72/ total epoch: 120 acc: 96.212 loss: 0.1399268838390708 
+epoch: 73/ total epoch: 120 acc: 96.288 loss: 0.1367949604690075 
+epoch: 74/ total epoch: 120 acc: 96.432 loss: 0.1327533625289798 
+epoch: 75/ total epoch: 120 acc: 96.562 loss: 0.12570810391753912 
+epoch: 76/ total epoch: 120 acc: 96.556 loss: 0.12284211342036724 
+epoch: 77/ total epoch: 120 acc: 96.78 loss: 0.11999143975228072 
+epoch: 78/ total epoch: 120 acc: 96.944 loss: 0.11435294391214848 
+epoch: 79/ total epoch: 120 acc: 96.992 loss: 0.11123887502402068 
+epoch: 80/ total epoch: 120 acc: 97.158 loss: 0.10425092724338174 
+epoch: 81/ total epoch: 120 acc: 97.298 loss: 0.10005099619552493 
+epoch: 82/ total epoch: 120 acc: 97.342 loss: 0.0969123860001564 
+epoch: 83/ total epoch: 120 acc: 97.524 loss: 0.09045580647140741 
+epoch: 84/ total epoch: 120 acc: 97.688 loss: 0.08619078563898802 
+epoch: 85/ total epoch: 120 acc: 97.816 loss: 0.08188854553923011 
+epoch: 86/ total epoch: 120 acc: 98.044 loss: 0.07629270938038826 
+epoch: 87/ total epoch: 120 acc: 98.096 loss: 0.07042632162943482 
+epoch: 88/ total epoch: 120 acc: 98.15 loss: 0.06831174587644637 
+epoch: 89/ total epoch: 120 acc: 98.29 loss: 0.06290761227533222 
+epoch: 90/ total epoch: 120 acc: 98.43 loss: 0.05845574312657118 
+epoch: 91/ total epoch: 120 acc: 98.58 loss: 0.05568319329433143 
+epoch: 92/ total epoch: 120 acc: 98.686 loss: 0.05040188420005143 
+epoch: 93/ total epoch: 120 acc: 98.908 loss: 0.044871942281723025 
+epoch: 94/ total epoch: 120 acc: 98.876 loss: 0.04322530489042401 
+epoch: 95/ total epoch: 120 acc: 99.05 loss: 0.03902634280920029 
+epoch: 96/ total epoch: 120 acc: 99.094 loss: 0.03616804448701441 
+epoch: 97/ total epoch: 120 acc: 99.198 loss: 0.03329336164239794 
+epoch: 98/ total epoch: 120 acc: 99.242 loss: 0.030680386478081346 
+epoch: 99/ total epoch: 120 acc: 99.398 loss: 0.026313869308680297 
+epoch: 100/ total epoch: 120 acc: 99.452 loss: 0.023751552012749016 
+epoch: 101/ total epoch: 120 acc: 99.508 loss: 0.022502352465875446 
+epoch: 102/ total epoch: 120 acc: 99.576 loss: 0.0201490768622607 
+epoch: 103/ total epoch: 120 acc: 99.622 loss: 0.018524294623173773 
+epoch: 104/ total epoch: 120 acc: 99.698 loss: 0.01643571343179792 
+epoch: 105/ total epoch: 120 acc: 99.726 loss: 0.014975013476796448 
+epoch: 106/ total epoch: 120 acc: 99.758 loss: 0.0138260381068103 
+epoch: 107/ total epoch: 120 acc: 99.76 loss: 0.013148488014470786 
+epoch: 108/ total epoch: 120 acc: 99.812 loss: 0.011741940871812403 
+epoch: 109/ total epoch: 120 acc: 99.85 loss: 0.01093575612269342 
+epoch: 110/ total epoch: 120 acc: 99.868 loss: 0.010312490625306965 
+epoch: 111/ total epoch: 120 acc: 99.874 loss: 0.009868859889917076 
+epoch: 112/ total epoch: 120 acc: 99.836 loss: 0.010152971208561212 
+epoch: 113/ total epoch: 120 acc: 99.902 loss: 0.009311002493370324 
+epoch: 114/ total epoch: 120 acc: 99.882 loss: 0.008803059948608279 
+epoch: 115/ total epoch: 120 acc: 99.918 loss: 0.008413680457044393 
+epoch: 116/ total epoch: 120 acc: 99.874 loss: 0.009100351066794247 
+epoch: 117/ total epoch: 120 acc: 99.918 loss: 0.007953549383673817 
+epoch: 118/ total epoch: 120 acc: 99.896 loss: 0.008457069536205382 
+epoch: 119/ total epoch: 120 acc: 99.888 loss: 0.008311971191316842 
+Test model cifar_10 : test_loss0.013894177647307515 | test_acc99.834
+Test model cifar_10 : test_loss0.01401240613963455 | test_acc99.83
+Test model cifar_10 : test_loss0.01405341873690486 | test_acc99.826
+Test model cifar_10 : test_loss0.014166323802433907 | test_acc99.802
+Test model cifar_10 : test_loss0.013916497652418912 | test_acc99.824
+Test model cifar_10 : test_loss0.013940294101834297 | test_acc99.812
+Test model cifar_10 : test_loss0.014388456610031426 | test_acc99.794
+Test model cifar_10 : test_loss0.014050700621679426 | test_acc99.83
+Test model cifar_10 : test_loss0.014102574446238577 | test_acc99.818
+Test model cifar_10 : test_loss0.01374090206855908 | test_acc99.836
+Test model cifar_10 : test_loss0.013915322786197067 | test_acc99.826
+Test model cifar_10 : test_loss0.014252771232277155 | test_acc99.808
+Test model cifar_10 : test_loss0.013982399458996951 | test_acc99.832
+Test model cifar_10 : test_loss0.013652356842998415 | test_acc99.848
+Test model cifar_10 : test_loss0.014133532827720046 | test_acc99.822
+Test model cifar_10 : test_loss0.013726389203220606 | test_acc99.838
+Test model cifar_10 : test_loss0.014099188063293695 | test_acc99.83
+Test model cifar_10 : test_loss0.014260211817920207 | test_acc99.804
+Test model cifar_10 : test_loss0.01414446859387681 | test_acc99.832
+Test model cifar_10 : test_loss0.01399278226494789 | test_acc99.81
+Test model cifar_10 : test_loss0.14652534630149602 | test_acc95.13
+epoch: 0/ total epoch: 2 acc: 37.216 loss: 1.7499927594661713 
+epoch: 1/ total epoch: 2 acc: 56.33 loss: 1.2177000020742417 
+Test model cifar_10 : test_loss1.0194005644321442 | test_acc63.84
+epoch: 0/ total epoch: 2 acc: 36.848 loss: 1.7537455518245697 
+epoch: 1/ total epoch: 2 acc: 53.794 loss: 1.2858755425214767 
+Test model cifar_10 : test_loss1.0706892716884613 | test_acc62.09
+Test model cifar_10 : test_loss1.070687125325203 | test_acc62.09
+Test model cifar_10 : test_loss1.070687125325203 | test_acc62.09
+Test model cifar_10 : test_loss1.070687125325203 | test_acc62.09
+Test model cifar_10 : test_loss1.070687125325203 | test_acc62.09
+epoch: 0/ total epoch: 2 acc: 37.934 loss: 1.7234128766059875 
+epoch: 1/ total epoch: 2 acc: 58.562 loss: 1.1663807216882707 
+Test model cifar_10 : test_loss0.9353783547878265 | test_acc68.06
+Test model cifar_10 : test_loss0.9353775072097779 | test_acc68.05
+Test model cifar_10 : test_loss0.9353775072097779 | test_acc68.05
+Test model cifar_10 : test_loss0.9353775072097779 | test_acc68.05
+epoch: 0/ total epoch: 2 acc: 36.84 loss: 1.751932752609253 
+epoch: 1/ total epoch: 2 acc: 57.722 loss: 1.1899935902357102 
+Test model cifar_10 : test_loss0.9817749911546707 | test_acc64.94
+Test model cifar_10 : test_loss0.9817738765478135 | test_acc64.94
+epoch: 0/ total epoch: 2 acc: 37.016 loss: 1.7534055967330933 
+epoch: 1/ total epoch: 2 acc: 54.46 loss: 1.263613481760025 
+Test model cifar_10 : test_loss1.0729848623275757 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+Test model cifar_10 : test_loss1.0729850447177887 | test_acc61.38
+epoch: 0/ total epoch: 2 acc: 36.962 loss: 1.7582309083938599 
+epoch: 1/ total epoch: 2 acc: 52.262 loss: 1.317970099210739 
+Test model cifar_10 : test_loss1.111956929564476 | test_acc60.74
+epoch: 0/ total epoch: 120 acc: 37.184 loss: 1.7511943228244782 
+epoch: 1/ total epoch: 120 acc: 52.588 loss: 1.3211226700544356 
+epoch: 2/ total epoch: 120 acc: 64.58 loss: 1.0082383378744126 
+epoch: 3/ total epoch: 120 acc: 70.748 loss: 0.8392536256313324 
+epoch: 4/ total epoch: 120 acc: 75.448 loss: 0.7130143010616302 
+epoch: 5/ total epoch: 120 acc: 79.322 loss: 0.6101640802621842 
+epoch: 6/ total epoch: 120 acc: 82.138 loss: 0.5383207767605781 
+epoch: 7/ total epoch: 120 acc: 83.85 loss: 0.48761252155900003 
+epoch: 8/ total epoch: 120 acc: 84.812 loss: 0.45974377381801607 
+epoch: 9/ total epoch: 120 acc: 85.814 loss: 0.43353242793679236 
+epoch: 10/ total epoch: 120 acc: 86.514 loss: 0.41264299118518827 
+epoch: 11/ total epoch: 120 acc: 87.112 loss: 0.39808898422122 
+epoch: 12/ total epoch: 120 acc: 87.808 loss: 0.38043930891156197 
+epoch: 13/ total epoch: 120 acc: 88.176 loss: 0.3672154711186886 
+epoch: 14/ total epoch: 120 acc: 88.464 loss: 0.35781288966536523 
+epoch: 15/ total epoch: 120 acc: 88.892 loss: 0.35157912072539327 
+epoch: 16/ total epoch: 120 acc: 89.198 loss: 0.34057780385017394 
+epoch: 17/ total epoch: 120 acc: 89.45 loss: 0.33340119177103045 
+epoch: 18/ total epoch: 120 acc: 89.686 loss: 0.32849174278974536 
+epoch: 19/ total epoch: 120 acc: 89.9 loss: 0.3189875297546387 
+epoch: 20/ total epoch: 120 acc: 89.896 loss: 0.3187892246544361 
+epoch: 21/ total epoch: 120 acc: 90.436 loss: 0.3086144780516624 
+epoch: 22/ total epoch: 120 acc: 90.298 loss: 0.3070532335639 
+epoch: 23/ total epoch: 120 acc: 90.7 loss: 0.3034484369158745 
+epoch: 24/ total epoch: 120 acc: 90.938 loss: 0.293181012481451 
+epoch: 25/ total epoch: 120 acc: 90.914 loss: 0.29443736115098 
+epoch: 26/ total epoch: 120 acc: 90.994 loss: 0.29006503069400785 
+epoch: 27/ total epoch: 120 acc: 91.124 loss: 0.28463470351696013 
+epoch: 28/ total epoch: 120 acc: 91.466 loss: 0.2803101381659508 
+epoch: 29/ total epoch: 120 acc: 91.404 loss: 0.2803392499983311 
+epoch: 30/ total epoch: 120 acc: 91.582 loss: 0.2760127279162407 
+epoch: 31/ total epoch: 120 acc: 91.696 loss: 0.27124234050512314 
+epoch: 32/ total epoch: 120 acc: 91.76 loss: 0.2692239046394825 
+epoch: 33/ total epoch: 120 acc: 91.952 loss: 0.26337188267707823 
+epoch: 34/ total epoch: 120 acc: 92.138 loss: 0.2590522576868534 
+epoch: 35/ total epoch: 120 acc: 92.29 loss: 0.2564832427352667 
+epoch: 36/ total epoch: 120 acc: 92.398 loss: 0.2541714242398739 
+epoch: 37/ total epoch: 120 acc: 92.372 loss: 0.2534940557032824 
+epoch: 38/ total epoch: 120 acc: 92.49 loss: 0.2504704523384571 
+epoch: 39/ total epoch: 120 acc: 92.786 loss: 0.2436770602464676 
+epoch: 40/ total epoch: 120 acc: 92.808 loss: 0.24497612760961054 
+epoch: 41/ total epoch: 120 acc: 92.75 loss: 0.24391789984703063 
+epoch: 42/ total epoch: 120 acc: 92.962 loss: 0.23679669727385044 
+epoch: 43/ total epoch: 120 acc: 93.008 loss: 0.23643033571541308 
+epoch: 44/ total epoch: 120 acc: 93.136 loss: 0.2334347156137228 
+epoch: 45/ total epoch: 120 acc: 93.254 loss: 0.2299110882729292 
+epoch: 46/ total epoch: 120 acc: 93.368 loss: 0.22787191113829613 
+epoch: 47/ total epoch: 120 acc: 93.498 loss: 0.22406235024333 
+epoch: 48/ total epoch: 120 acc: 93.51 loss: 0.22219059336185457 
+epoch: 49/ total epoch: 120 acc: 93.7 loss: 0.21919201636314392 
+epoch: 50/ total epoch: 120 acc: 93.794 loss: 0.21589409245550634 
+epoch: 51/ total epoch: 120 acc: 93.874 loss: 0.2119986170530319 
+epoch: 52/ total epoch: 120 acc: 94.128 loss: 0.20705164101719856 
+epoch: 53/ total epoch: 120 acc: 94.15 loss: 0.20671560271084308 
+epoch: 54/ total epoch: 120 acc: 94.254 loss: 0.20374951961636542 
+epoch: 55/ total epoch: 120 acc: 94.264 loss: 0.2014967908114195 
+epoch: 56/ total epoch: 120 acc: 94.406 loss: 0.19797448317706584 
+epoch: 57/ total epoch: 120 acc: 94.474 loss: 0.19484291991591454 
+epoch: 58/ total epoch: 120 acc: 94.572 loss: 0.1918464814722538 
+epoch: 59/ total epoch: 120 acc: 94.822 loss: 0.18791407817602157 
+epoch: 60/ total epoch: 120 acc: 94.834 loss: 0.18684300039708615 
+epoch: 61/ total epoch: 120 acc: 94.94 loss: 0.18121167309582234 
+epoch: 62/ total epoch: 120 acc: 95.18 loss: 0.17621903398633004 
+epoch: 63/ total epoch: 120 acc: 95.232 loss: 0.17430719430744648 
+epoch: 64/ total epoch: 120 acc: 95.348 loss: 0.16887312078475952 
+epoch: 65/ total epoch: 120 acc: 95.508 loss: 0.16489098857343196 
+epoch: 66/ total epoch: 120 acc: 95.564 loss: 0.16235428819060327 
+epoch: 67/ total epoch: 120 acc: 95.688 loss: 0.15938237597048283 
+epoch: 68/ total epoch: 120 acc: 95.8 loss: 0.15684135388582945 
+epoch: 69/ total epoch: 120 acc: 95.98 loss: 0.15111189226806163 
+epoch: 70/ total epoch: 120 acc: 96.014 loss: 0.14781799714267255 
+epoch: 71/ total epoch: 120 acc: 96.092 loss: 0.1428374442383647 
+epoch: 72/ total epoch: 120 acc: 96.226 loss: 0.13871243881434203 
+epoch: 73/ total epoch: 120 acc: 96.334 loss: 0.13537055839598178 
+epoch: 74/ total epoch: 120 acc: 96.462 loss: 0.12800205264240502 
+epoch: 75/ total epoch: 120 acc: 96.636 loss: 0.12113559240847827 
+epoch: 76/ total epoch: 120 acc: 96.76 loss: 0.1189217390716076 
+epoch: 77/ total epoch: 120 acc: 96.792 loss: 0.11509676445275545 
+epoch: 78/ total epoch: 120 acc: 97.056 loss: 0.10808155869692564 
+epoch: 79/ total epoch: 120 acc: 97.088 loss: 0.1046145603954792 
+epoch: 80/ total epoch: 120 acc: 97.194 loss: 0.1003915234208107 
+epoch: 81/ total epoch: 120 acc: 97.424 loss: 0.09460831487551331 
+epoch: 82/ total epoch: 120 acc: 97.468 loss: 0.0895799605101347 
+epoch: 83/ total epoch: 120 acc: 97.588 loss: 0.08714634159952402 
+epoch: 84/ total epoch: 120 acc: 97.81 loss: 0.08018926532939076 
+epoch: 85/ total epoch: 120 acc: 97.858 loss: 0.07739082666486502 
+epoch: 86/ total epoch: 120 acc: 98.056 loss: 0.07222579314187169 
+epoch: 87/ total epoch: 120 acc: 98.1 loss: 0.068025236511603 
+epoch: 88/ total epoch: 120 acc: 98.18 loss: 0.0639882482830435 
+epoch: 89/ total epoch: 120 acc: 98.336 loss: 0.0593537876047194 
+epoch: 90/ total epoch: 120 acc: 98.428 loss: 0.05662958340533078 
+epoch: 91/ total epoch: 120 acc: 98.644 loss: 0.05106885113008321 
+epoch: 92/ total epoch: 120 acc: 98.684 loss: 0.04824301895685494 
+epoch: 93/ total epoch: 120 acc: 98.85 loss: 0.04272639427892864 
+epoch: 94/ total epoch: 120 acc: 99.004 loss: 0.039253489926457406 
+epoch: 95/ total epoch: 120 acc: 99.148 loss: 0.034706315058283504 
+epoch: 96/ total epoch: 120 acc: 99.134 loss: 0.03298390256520361 
+epoch: 97/ total epoch: 120 acc: 99.22 loss: 0.02999730896577239 
+epoch: 98/ total epoch: 120 acc: 99.336 loss: 0.027653389894403517 
+epoch: 99/ total epoch: 120 acc: 99.424 loss: 0.024509741077199578 
+epoch: 100/ total epoch: 120 acc: 99.508 loss: 0.02160835845116526 
+epoch: 101/ total epoch: 120 acc: 99.528 loss: 0.020444301138632 
+epoch: 102/ total epoch: 120 acc: 99.638 loss: 0.018244728359393777 
+epoch: 103/ total epoch: 120 acc: 99.672 loss: 0.016418881315737963 
+epoch: 104/ total epoch: 120 acc: 99.702 loss: 0.01606026822887361 
+epoch: 105/ total epoch: 120 acc: 99.76 loss: 0.013793085613287985 
+epoch: 106/ total epoch: 120 acc: 99.782 loss: 0.012995747911278159 
+epoch: 107/ total epoch: 120 acc: 99.76 loss: 0.011973078465554864 
+epoch: 108/ total epoch: 120 acc: 99.854 loss: 0.010311569430865348 
+epoch: 109/ total epoch: 120 acc: 99.826 loss: 0.010353362289723009 
+epoch: 110/ total epoch: 120 acc: 99.87 loss: 0.009548813498578966 
+epoch: 111/ total epoch: 120 acc: 99.89 loss: 0.008674631574656814 
+epoch: 112/ total epoch: 120 acc: 99.92 loss: 0.007632588244043291 
+epoch: 113/ total epoch: 120 acc: 99.91 loss: 0.008125755099114031 
+epoch: 114/ total epoch: 120 acc: 99.91 loss: 0.007891480426769704 
+epoch: 115/ total epoch: 120 acc: 99.942 loss: 0.00711082159075886 
+epoch: 116/ total epoch: 120 acc: 99.924 loss: 0.007607522230129689 
+epoch: 117/ total epoch: 120 acc: 99.92 loss: 0.007396504933014512 
+epoch: 118/ total epoch: 120 acc: 99.908 loss: 0.007362398478202522 
+epoch: 119/ total epoch: 120 acc: 99.93 loss: 0.00693991146562621 
+Test model cifar_10 : test_loss0.14626597590744495 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.013826490219682455 | test_acc99.86
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.014132886981591583 | test_acc99.828
+epoch: 0/ total epoch: 2 acc: 14.134 loss: 3.706464615345001 
+epoch: 1/ total epoch: 2 acc: 28.608 loss: 2.878933132648468 
+Test model cifar_100 : test_loss2.6285969972610475 | test_acc34.36
+epoch: 0/ total epoch: 120 acc: 14.786 loss: 3.660834282875061 
+epoch: 1/ total epoch: 120 acc: 28.166 loss: 2.890811429977417 
+epoch: 2/ total epoch: 120 acc: 38.986 loss: 2.3588529312610627 
+epoch: 3/ total epoch: 120 acc: 45.458 loss: 2.045553928613663 
+epoch: 4/ total epoch: 120 acc: 50.482 loss: 1.8418719475269318 
+epoch: 5/ total epoch: 120 acc: 54.05 loss: 1.7002360000610353 
+epoch: 6/ total epoch: 120 acc: 56.672 loss: 1.5898450245857239 
+epoch: 7/ total epoch: 120 acc: 59.004 loss: 1.505484323501587 
+epoch: 8/ total epoch: 120 acc: 60.728 loss: 1.4389484000205994 
+epoch: 9/ total epoch: 120 acc: 62.578 loss: 1.3744184141159057 
+epoch: 10/ total epoch: 120 acc: 63.634 loss: 1.335578670144081 
+epoch: 11/ total epoch: 120 acc: 64.978 loss: 1.2857245032787323 
+epoch: 12/ total epoch: 120 acc: 65.838 loss: 1.2533585551977158 
+epoch: 13/ total epoch: 120 acc: 66.478 loss: 1.2292159996032714 
+epoch: 14/ total epoch: 120 acc: 67.278 loss: 1.201861206293106 
+epoch: 15/ total epoch: 120 acc: 67.77 loss: 1.1843058544397354 
+epoch: 16/ total epoch: 120 acc: 68.116 loss: 1.1622271003723144 
+epoch: 17/ total epoch: 120 acc: 68.796 loss: 1.1464570418596267 
+epoch: 18/ total epoch: 120 acc: 69.264 loss: 1.123174151301384 
+epoch: 19/ total epoch: 120 acc: 69.922 loss: 1.1078848308324813 
+epoch: 20/ total epoch: 120 acc: 70.366 loss: 1.0910296839475633 
+epoch: 21/ total epoch: 120 acc: 70.632 loss: 1.0776659603118897 
+epoch: 22/ total epoch: 120 acc: 71.296 loss: 1.062608165025711 
+epoch: 23/ total epoch: 120 acc: 71.468 loss: 1.0515352025032043 
+epoch: 24/ total epoch: 120 acc: 72.062 loss: 1.0394886533021928 
+epoch: 25/ total epoch: 120 acc: 72.35 loss: 1.0285750988721847 
+epoch: 26/ total epoch: 120 acc: 72.444 loss: 1.0210985951423646 
+epoch: 27/ total epoch: 120 acc: 73.02 loss: 1.0035893487930299 
+epoch: 28/ total epoch: 120 acc: 73.0 loss: 0.9955823373794556 
+epoch: 29/ total epoch: 120 acc: 73.672 loss: 0.9828161982297897 
+epoch: 30/ total epoch: 120 acc: 73.612 loss: 0.977879548072815 
+epoch: 31/ total epoch: 120 acc: 73.972 loss: 0.9692495522499085 
+epoch: 32/ total epoch: 120 acc: 74.446 loss: 0.9530200908184051 
+epoch: 33/ total epoch: 120 acc: 74.5 loss: 0.943813624382019 
+epoch: 34/ total epoch: 120 acc: 74.848 loss: 0.9395700591802597 
+epoch: 35/ total epoch: 120 acc: 75.13 loss: 0.9332536464929581 
+epoch: 36/ total epoch: 120 acc: 75.734 loss: 0.9150648418664932 
+epoch: 37/ total epoch: 120 acc: 75.82 loss: 0.9092326821088791 
+epoch: 38/ total epoch: 120 acc: 76.224 loss: 0.901290596485138 
+epoch: 39/ total epoch: 120 acc: 76.414 loss: 0.8930897034406662 
+epoch: 40/ total epoch: 120 acc: 76.872 loss: 0.8790708141326904 
+epoch: 41/ total epoch: 120 acc: 77.136 loss: 0.8685083088874817 
+epoch: 42/ total epoch: 120 acc: 77.21 loss: 0.8612484594583512 
+epoch: 43/ total epoch: 120 acc: 77.514 loss: 0.8584029066562653 
+epoch: 44/ total epoch: 120 acc: 77.922 loss: 0.8455280371904373 
+epoch: 45/ total epoch: 120 acc: 78.138 loss: 0.8354593023657799 
+epoch: 46/ total epoch: 120 acc: 78.524 loss: 0.8289293296337128 
+epoch: 47/ total epoch: 120 acc: 78.718 loss: 0.8163296672105789 
+epoch: 48/ total epoch: 120 acc: 78.962 loss: 0.8088012825250626 
+epoch: 49/ total epoch: 120 acc: 79.326 loss: 0.7967871916294098 
+epoch: 50/ total epoch: 120 acc: 79.496 loss: 0.7928120145797729 
+epoch: 51/ total epoch: 120 acc: 79.952 loss: 0.7820791575908661 
+epoch: 52/ total epoch: 120 acc: 80.146 loss: 0.7714319031834602 
+epoch: 53/ total epoch: 120 acc: 80.426 loss: 0.7640544710159302 
+epoch: 54/ total epoch: 120 acc: 80.898 loss: 0.748513533771038 
+epoch: 55/ total epoch: 120 acc: 81.39 loss: 0.7389527397751808 
+epoch: 56/ total epoch: 120 acc: 81.32 loss: 0.7335008739233017 
+epoch: 57/ total epoch: 120 acc: 82.016 loss: 0.7195237926840782 
+epoch: 58/ total epoch: 120 acc: 82.202 loss: 0.711900576710701 
+epoch: 59/ total epoch: 120 acc: 82.468 loss: 0.7047877560257911 
+epoch: 60/ total epoch: 120 acc: 82.692 loss: 0.6971416469812394 
+epoch: 61/ total epoch: 120 acc: 83.234 loss: 0.6805313001275063 
+epoch: 62/ total epoch: 120 acc: 83.4 loss: 0.6715166955590248 
+epoch: 63/ total epoch: 120 acc: 83.682 loss: 0.6645233761668206 
+epoch: 64/ total epoch: 120 acc: 83.924 loss: 0.6564432141780854 
+epoch: 65/ total epoch: 120 acc: 84.312 loss: 0.6439211112260819 
+epoch: 66/ total epoch: 120 acc: 84.81 loss: 0.6343089780807495 
+epoch: 67/ total epoch: 120 acc: 85.072 loss: 0.6241234639286994 
+epoch: 68/ total epoch: 120 acc: 85.542 loss: 0.6122935199737549 
+epoch: 69/ total epoch: 120 acc: 85.766 loss: 0.6000255916714669 
+epoch: 70/ total epoch: 120 acc: 86.284 loss: 0.5909640029668808 
+epoch: 71/ total epoch: 120 acc: 86.394 loss: 0.5820525648593903 
+epoch: 72/ total epoch: 120 acc: 86.794 loss: 0.5657831293940544 
+epoch: 73/ total epoch: 120 acc: 87.208 loss: 0.5575884111523628 
+epoch: 74/ total epoch: 120 acc: 87.506 loss: 0.5473579691052437 
+epoch: 75/ total epoch: 120 acc: 87.79 loss: 0.5370867174863815 
+epoch: 76/ total epoch: 120 acc: 88.17 loss: 0.525264510512352 
+epoch: 77/ total epoch: 120 acc: 88.704 loss: 0.5123395307064056 
+epoch: 78/ total epoch: 120 acc: 88.94 loss: 0.5007268790602684 
+epoch: 79/ total epoch: 120 acc: 89.444 loss: 0.4890959576964378 
+epoch: 80/ total epoch: 120 acc: 89.48 loss: 0.4775683179497719 
+epoch: 81/ total epoch: 120 acc: 90.044 loss: 0.46449148732423784 
+epoch: 82/ total epoch: 120 acc: 90.252 loss: 0.45435602766275407 
+epoch: 83/ total epoch: 120 acc: 90.6 loss: 0.4462971665859222 
+epoch: 84/ total epoch: 120 acc: 90.97 loss: 0.43138300329446794 
+epoch: 85/ total epoch: 120 acc: 91.338 loss: 0.4200442315340042 
+epoch: 86/ total epoch: 120 acc: 91.778 loss: 0.4059674599766731 
+epoch: 87/ total epoch: 120 acc: 92.136 loss: 0.3943146867156029 
+epoch: 88/ total epoch: 120 acc: 92.258 loss: 0.3829126522839069 
+epoch: 89/ total epoch: 120 acc: 92.56 loss: 0.3741702375113964 
+epoch: 90/ total epoch: 120 acc: 92.896 loss: 0.3601328863799572 
+epoch: 91/ total epoch: 120 acc: 93.368 loss: 0.3461442644894123 
+epoch: 92/ total epoch: 120 acc: 93.464 loss: 0.33763213551044463 
+epoch: 93/ total epoch: 120 acc: 93.814 loss: 0.32576658657193186 
+epoch: 94/ total epoch: 120 acc: 94.022 loss: 0.31910041165351866 
+epoch: 95/ total epoch: 120 acc: 94.172 loss: 0.3088077553510666 
+epoch: 96/ total epoch: 120 acc: 94.59 loss: 0.29953979852795604 
+epoch: 97/ total epoch: 120 acc: 94.692 loss: 0.2916720067858696 
+epoch: 98/ total epoch: 120 acc: 94.906 loss: 0.2817957698702812 
+epoch: 99/ total epoch: 120 acc: 95.168 loss: 0.27258419066667555 
+epoch: 100/ total epoch: 120 acc: 95.338 loss: 0.26474515679478644 
+epoch: 101/ total epoch: 120 acc: 95.604 loss: 0.25784781301021575 
+epoch: 102/ total epoch: 120 acc: 95.768 loss: 0.2510011703670025 
+epoch: 103/ total epoch: 120 acc: 95.868 loss: 0.24370665317773818 
+epoch: 104/ total epoch: 120 acc: 95.966 loss: 0.2402153980433941 
+epoch: 105/ total epoch: 120 acc: 96.096 loss: 0.23442628616094588 
+epoch: 106/ total epoch: 120 acc: 96.326 loss: 0.22646696546673775 
+epoch: 107/ total epoch: 120 acc: 96.416 loss: 0.22188343358039855 
+epoch: 108/ total epoch: 120 acc: 96.48 loss: 0.21867990496754647 
+epoch: 109/ total epoch: 120 acc: 96.488 loss: 0.21472347900271416 
+epoch: 110/ total epoch: 120 acc: 96.648 loss: 0.21087894639372826 
+epoch: 111/ total epoch: 120 acc: 96.674 loss: 0.20803423124551773 
+epoch: 112/ total epoch: 120 acc: 96.822 loss: 0.20506676197052 
+epoch: 113/ total epoch: 120 acc: 96.792 loss: 0.2029392577111721 
+epoch: 114/ total epoch: 120 acc: 96.864 loss: 0.20099421933293343 
+epoch: 115/ total epoch: 120 acc: 96.886 loss: 0.1993246079981327 
+epoch: 116/ total epoch: 120 acc: 96.896 loss: 0.19811964689195155 
+epoch: 117/ total epoch: 120 acc: 96.882 loss: 0.19851311446726322 
+epoch: 118/ total epoch: 120 acc: 96.904 loss: 0.19692115238308908 
+epoch: 119/ total epoch: 120 acc: 96.998 loss: 0.19776825289428235 
+Test model cifar_100 : test_loss0.17615927143394947 | test_acc97.178
+Test model cifar_100 : test_loss0.17575450989603997 | test_acc97.25
+Test model cifar_100 : test_loss0.1754677340090275 | test_acc97.246
+Test model cifar_100 : test_loss0.17654364931583405 | test_acc97.21
+Test model cifar_10 : test_loss0.01395618045143783 | test_acc99.85
+Test model cifar_10 : test_loss0.013847807452082634 | test_acc99.874
+Test model cifar_10 : test_loss0.014155876684002578 | test_acc99.828
+Test model cifar_10 : test_loss0.01411739973910153 | test_acc99.848
+Test model cifar_10 : test_loss0.01402230428904295 | test_acc99.83
+Test model cifar_10 : test_loss0.013809699437581003 | test_acc99.852
+Test model cifar_10 : test_loss0.013776372473686934 | test_acc99.866
+Test model cifar_10 : test_loss0.01420927571086213 | test_acc99.85
+Test model cifar_10 : test_loss0.014315916400402784 | test_acc99.852
+Test model cifar_10 : test_loss0.01408117677550763 | test_acc99.846
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
+Test model cifar_10 : test_loss0.1462714881822467 | test_acc95.45
